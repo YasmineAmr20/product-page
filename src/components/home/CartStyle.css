@@ -1,0 +1,7 @@
+table{
+border: 1px solid green;
+    width: -webkit-fill-available;
+}
+th,td{
+    border: 1px solid green;
+}

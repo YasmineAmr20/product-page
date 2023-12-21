@@ -1,0 +1,275 @@
+/* body{
+    background-color: #f7dae7;
+} */
+.container{
+        width: 98%;
+        height: 534px;
+                background: #f7dae7;
+                
+        display: flex;
+    }
+.container .home-img img{
+    width: 393px;
+        position: absolute;
+        margin: 13px;
+        padding: 28px;
+        background: #f7dae7;
+        right: 166px;
+}
+.container .homeText{
+        position: relative;
+        left: 91px;
+        top: 132px;
+        height: 349px;
+        width: 463px;
+}
+.container .homeText p{
+        font-size: 22px;
+            font-family: revert;
+            font-weight: 600;
+            position: absolute;
+            left: 71px;
+            top: 23px;
+            margin: 11px;
+}
+.container .homeText h2{
+top: 86px;
+    font-family: monospace;
+    position: relative;
+    left: 71px;
+    font-weight: 600;
+    /* text-decoration-style: solid; */
+    /* text-decoration: overline; */
+    font-size: 32px;
+    color: rgb(0 0 0 / 70%);
+}
+.container .homeText .homeBtn{
+        border-radius: 13px;
+            border: 1px solid;
+            height: 51px;
+            width: 170px;
+            right: 36px;
+            font-weight: 600;
+            font-size: 19px;
+            position: relative;
+            top: 121px;
+            color: white;
+            background-color: #00ffff70;
+}
+.container .homeText .homeBtn:hover{
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    box-shadow: 0px 15px 25px rgba(100, 100, 100.45);
+    border: 1px solid rgb(5, 5, 5);
+    background-color: #f7dae7;
+    color: black;
+
+}
+/* popular */
+.container-popular {
+    position: relative;
+        width: 94%;
+        left: 37px;
+        padding: 11px;
+        top: 16px;
+        display: flex;
+        margin: 8px;
+}
+.container-popular img{
+width: 100%;
+    box-sizing: border-box;
+    box-shadow: 0 0 6px;}
+.popText{
+    font-size: xx-large;
+        padding: 21px;
+        text-decoration: underline;
+        text-decoration-line: underline;
+        margin: 10px;
+}
+.container-popular .popularCard{
+        width: 25%;
+        margin: 10px;
+        padding: 10px;
+}
+.container-popular .popularCard:hover{
+    box-sizing: border-box;
+    box-shadow: 0 0 5px;
+    transform: scale(1.05) ;
+    border-radius: 10px;
+
+}
+.container-ex{
+        width: 84%;
+        position: relative;
+        left: 95px;
+        display: flex;
+        top: 39px;
+        background-color: #f7dae7;
+            height: 328px;
+}
+.container-ex .exText{
+    font-size: 50px;
+        position: relative;
+        left: 45px;
+        top: 117px;
+        font-weight: 500;
+}
+.container-ex .eximg img
+{position: relative;
+    width: 207px;
+    left: 648px;
+top:-127px}
+
+.container-ex .exText .btn{
+    border-radius: 13px;
+        border: 1px solid;
+        height: 51px;
+        width: 170px;
+        right: 36px;
+        font-weight: 600;
+        font-size: 19px;
+        position: relative;
+        top: 13px;
+        color: white;
+        background-color: #00ffff70;
+}
+.container-ex .exText .btn:hover{
+    cursor: pointer;
+        transition: all 0.5s ease-in-out;
+        box-shadow: 0px 15px 25px rgba(100, 100, 100.45);
+        border: 1px solid rgb(5, 5, 5);
+        background-color: #f7dae7;
+        color: black;
+}
+
+/* products */
+.product-con{
+        left: 51px;
+            position: relative;
+            top: 96px;
+            width: 90%;
+            display: flex;
+            flex-wrap: wrap;
+        
+}
+
+.product-con .card{
+    width: 23%;
+        height: 515px;
+        margin: 10px;
+        padding: 10px;
+    }
+.product-con .card:hover{
+    box-sizing: border-box;
+        box-shadow: 0 0 5px #f7dae7;
+        transform: scale(1.05);
+        border-radius: 10px;
+}
+.product-con .card  img {
+        width: 100%;
+    }
+.product-con .card .card-body    {
+            height: 101px;
+    }
+.product-con .card .card-body h5    {
+        font-size: 13px;
+            font-weight: 700;
+    }
+
+.product-con .card .card-body .btns{
+    position: relative;
+        display: flex;
+        width: 110%;
+        right: 17px;
+}
+
+.product-con .card .card-body .btn-pro {
+
+    border-radius: 13px;
+    border: 1px solid;
+    height: 51px;
+    width: 117px;
+    right: -14px;
+    font-weight: 600;
+    font-size: 22px;
+    position: relative;
+    top: -10px;
+    color: white;
+    background-color: #00ffff70;
+}
+
+.product-con .card .card-body .btn-pro:hover {
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    box-shadow: 0px 15px 25px rgba(100, 100, 100.45);
+    border: 1px solid rgb(5, 5, 5);
+    background-color: #f7dae7;
+    color: black;
+}
+
+.product-con .card .card-body .link-pro{
+            border-radius: 13px;
+                border: 1px solid;
+                height: 51px;
+                width: 117px;
+                right: -14px;
+                font-weight: 600;
+                font-size: 22px;
+                position: relative;
+                top: -9px;
+                text-align: center;
+                text-decoration: none;
+                color: white;
+                background-color: #00ffff70;
+}
+
+.product-con .card .card-body .link-pro:hover {
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    box-shadow: 0px 15px 25px rgba(100, 100, 100.45);
+    border: 1px solid rgb(5, 5, 5);
+    background-color: #f7dae7;
+    color: black;
+}
+
+.last .last-img{
+    position: relative;
+        background-color: #f7dae7;
+        position: relative;
+        top: 153px;
+        left: 46px;
+        width: 92%;
+        height: 260px;
+}
+.last .last-img h1{
+    padding: 11px;
+        margin: 21px;
+}
+.last .last-img form{
+        height: 65px;
+
+}
+.last .last-img form input{
+        width: 495px;
+        height: 48px;
+        border-radius: 42px;
+        margin: 18px;
+        padding: 13px;
+}
+.last .last-img form .btn-pro {
+    margin-left: -97px;
+        width: 126px;
+        height: 49px;
+        font-size: 22px;
+        border: 1px solid;
+        border-radius: 42px;
+        background-color:aqua ;
+        color: white;
+}
+.last .last-img form .btn-pro:hover{
+    background-color:#f7dae7;
+    color:black;
+    border: 1px solid #f7dae7;
+    box-shadow: 0 0 5px;
+
+}

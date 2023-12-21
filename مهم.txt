@@ -1,0 +1,9 @@
+cmd ف المكان هنا وبعدين 
+رن
+npx json-server --watch allProducts.json --port اي حاجه 
+وسيبه شغال 
+افتح cmd تاني 
+رن 
+
+npx json-server --watch newCollection.json --port اي حاجه 
+وسيبهم شغالين 
